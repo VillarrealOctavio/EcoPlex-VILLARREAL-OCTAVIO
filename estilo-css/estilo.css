@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+}
+li {
+	text-decoration: none;
+}
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
+.encabezado {
+	background-color: grey;
+	background-image: lin;
+}
+.encabezadoNav ul li a:hover{
+	font-size: 13px;
+	font-family: sans-serif;
+	transform: translate(0px, -50px);
+}
+.pieNav ul li a:hover{
+	font-size: 13px;
+	font-family: sans-serif;
+}
