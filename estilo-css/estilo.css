@@ -21,3 +21,17 @@ a {
 	font-size: 13px;
 	font-family: sans-serif;
 }
+@keyframes animacion {
+	0% {width: 100px;}
+	25% {height: 100px;}
+	50% {transform: rotate(45deg);}
+	75% {widows:100px;}
+	100% {width: 100px;}
+}
+.encabezadoLogoTxt {
+	animation-name: animacion;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-delay: 2s;
+}
